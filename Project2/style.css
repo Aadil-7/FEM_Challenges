@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardbackground {
+    background-color: hsl(216, 50%, 16%);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    height: min-content 80% auto;
+    width: 25%;
+}
+
+.cardbackground h2:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+
+.author p:hover {
+    color: aquamarine;
+    cursor: pointer;
+}
+
+.cardbackground .dp{
+    width: 95%;
+    border-radius: 10px;
+}
+
+.cardbackground .dp:hover{
+    width: 95%;
+    border-radius: 10px;
+    -webkit-filter: hue-rotate(159.8deg);
+    cursor: pointer;
+}
+
+
+
+.cardbackground h2{
+    padding: 25px 10px;
+}
+.cardbackground p{
+    padding: 25px 10px;
+}
+
+.detail {
+    padding-bottom: 20px;
+}
+
+.detail .one {
+    width: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.detail .two {
+    width: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+.cardbackground h2,
+.cardbackground p,
+.cardbackground .author{
+    text-align: left;    
+}
+
+
+.author {
+    padding: 15px;
+    margin-top: 15px;
+    border-top: 1px solid rgb(98, 98, 98);
+}
+.author img {
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 50px;
+}
+
+
+.author .gray {
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    .cardbackground{
+        width: 45%;
+    }
+    
+}
