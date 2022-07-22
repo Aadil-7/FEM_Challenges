@@ -1,0 +1,99 @@
+body {
+    font-family: Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cardbackground {
+    background-color: rgb(202, 213, 228);
+    min-height: 70vh;
+    min-width: 80vw;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardbody{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 18vw;
+    height: 50vh;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 2px 5px gray;
+}
+
+
+.cardbody img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+@media  screen and (max-width: 825px) {
+ 
+    .cardbackground {
+        background-color: rgb(202, 213, 228);
+        min-height: 60vh;
+        min-width: 50vw;
+        border: 1px solid #ccc;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .cardbody{
+        background-color: #fff;
+        border-radius: 20px;
+        width: 40vw;
+        height: 40vh;
+        text-align: center;
+        padding: 20px;
+        box-shadow: 0px 2px 5px gray;
+    }
+ 
+    .cardbody img {
+        width: 280px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media  screen and (max-width: 768px) {
+ 
+    .cardbackground {
+        background-color: rgb(202, 213, 228);
+        min-height: 85vh;
+        min-width: 50vw;
+        border: 1px solid #ccc;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .cardbody{
+        background-color: #fff;
+        border-radius: 20px;
+        width: 40vw;
+        height: 60vh;
+        text-align: center;
+        padding: 20px;
+        box-shadow: 0px 2px 5px gray;
+    }
+ 
+    .cardbody img {
+        width: 280px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+}
